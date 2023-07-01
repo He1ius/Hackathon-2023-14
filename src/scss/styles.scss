@@ -1,0 +1,29 @@
+// Fonts
+@import "./../css/fonts/montserrat/montserrat.css";
+
+
+// Bootstrap
+@import "./libs/bootstrap/functions";
+@import "./libs/bootstrap/bootstrap-grid.scss";
+@import "./libs/bootstrap/bootstrap-reboot.scss";
+
+// Common blocks
+@import "./common-blocks.scss";
+
+// Blocks
+@import "./blocks/form/form.scss";
+@import "./blocks/main/main.scss";
+@import "./blocks/header/header.scss";
+@import "./blocks/menu/menu.scss";
+@import "./blocks/top/top.scss";
+@import "./blocks/select/select.scss";
+@import "./blocks/calculate/calculate.scss";
+@import "./blocks/window/window.scss";
+@import "./blocks/advantages/advantages.scss";
+@import "./blocks/how-work/how-work.scss";
+@import "./blocks/total/total.scss";
+@import "./blocks/download/download.scss";
+@import "./blocks/consultation/consultation.scss";
+
+// Vars
+@import "./vars.scss";

@@ -1,0 +1,56 @@
+.calculate{
+    position: relative;
+    z-index: 2;
+
+    &__items{
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+
+        margin-bottom: 20px;
+    }
+
+    &__title{
+        margin-bottom: 60px;
+    }
+
+    &__container{
+        margin-bottom: 60px;
+    }
+
+    &__object{
+
+        transition: var(--transition);
+        &:hover{
+            opacity: 0.5;
+        }
+    }
+
+    &__cart{
+        background-color: white;
+        border-radius: var(--border-radius);
+        padding: 20px;
+
+        width: 400px;
+        height: 100%;
+    }
+
+    &__map{
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+
+    &__item-wrapper{
+        position: relative;
+    }
+
+    &__unit{
+        position: absolute;
+
+        right: 8px;
+        top: 50%;
+        -webkit-transform: translate(0,-50%);
+        transform: translate(0,-50%);
+    }
+}

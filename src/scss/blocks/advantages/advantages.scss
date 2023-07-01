@@ -1,0 +1,53 @@
+.advantages{
+
+    &__items{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        row-gap: 40px;
+
+        flex-wrap: wrap;
+    }
+        
+    &__item{
+        padding: 30px;
+        background-color: white;
+
+        border-radius: var(--border-radius);
+
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+
+        max-width: 350px;
+        min-height: 200px;
+
+        & svg path, & svg rect, & svg polygon{
+            transition: var(--transition);            
+        }
+        &:hover svg path, &:hover svg rect, &:hover svg polygon{
+            fill: var(--color-blue);
+        }
+
+        &--stroke{
+
+            & svg path{
+                transition: var(--transition);
+            }
+            &:hover svg path{
+                stroke: var(--color-blue);
+                fill: none;
+            }
+        }
+    }
+
+    &__desc{
+        font-size: 20px;
+    }
+    
+    &__title{
+        margin-bottom: 60px;
+        text-align: center;
+    }
+}

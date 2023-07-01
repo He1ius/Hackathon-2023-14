@@ -1,0 +1,44 @@
+.how-work{
+    position: relative;
+
+    &__title{
+        margin-bottom: 10px;
+    }
+    
+    &__paragraph{
+        margin-bottom: 10px;
+    }
+
+    &__ol{
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+    }
+
+    &__span{
+        font-weight: 700;
+    }
+
+    &__container{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    &__img{
+        
+        width: 400px;
+        
+        img{
+            position: absolute;
+    
+            top: 0;
+            right: -300px;
+    
+            z-index: -1;
+            width: 800px;
+        }
+    }
+}
